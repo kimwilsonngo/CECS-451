@@ -19,7 +19,7 @@ def __str__(self):
             #r += '%d|' % i
             for j, queen in enumerate(self.state):
                 if queen == i:
-                    r += ' O'
+                    r += ' X'
                 else:
                     r += ' -'
             r += '\n'
